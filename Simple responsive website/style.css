@@ -12,7 +12,6 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
-/* wrapper pomaga zeby cala tresc na stronie byla na srodku */
 .wrapper {
 	margin: 0 auto;
 	width: 100%;
@@ -51,12 +50,12 @@ body {
 	text-align: center;
 }
 
-/* gdy odwolujemy sie na naszym toolbarze do jakiejs sekcji to dzieki temu nie przykryje nam toolbar tytulu sekcji */
+
 section {
 	scroll-margin-top: 70px; 
 }
 
-/* Nawigacja */
+
 nav {
 	position: sticky;
 	top: 0;
@@ -82,7 +81,7 @@ nav {
 	display: none;
 }
 
-/* Header */
+
 
 .header {
 	position: relative;
@@ -92,19 +91,18 @@ nav {
 	background-position: center;
 }
 
-/* Main */
+
 
 main {
 	margin: 60px 0;
 }
 
-/* About Us */
+
 .about-us-info {
 	margin-bottom: 10px;
 	padding: 0 20px;
 }
 
-/* Projects */
 
 .project {
 	margin: 60px auto;
@@ -140,7 +138,7 @@ main {
 	background-image: url(./IMG/Laptop\ 640×356.jpg);
 }
 
-/* Contact */
+
 .contact {
 	text-align: center;
 }
@@ -150,7 +148,7 @@ main {
 	text-transform: uppercase;
 }
 
-/* Footer */
+
 footer {
 	padding: 30px 10px;
 	text-align: center;
@@ -182,7 +180,7 @@ footer {
 	.header {
 		height: 400px;
 		background-image: url(./IMG/guitar-1920-1080.jpg);
-		background-size: cover; /* dzieki temu zdjecie jest na calej rozciaglosci */
+		background-size: cover; 
 		background-position: center;
 	}
 
